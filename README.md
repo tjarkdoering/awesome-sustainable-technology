@@ -7,9 +7,39 @@
   <img src="./img/earth.gif" alt="animated" with="250" height="250" />
 </p>
 
+<!---
+
+
+
+Du hast dich bewusst gegen ein Inhaltsverzeichnis entschieden?
+Zumindest für die ## Überschriften könnte das die Übersicht und den Schnellzugriff beschleunigen ohne ein zu langes Verzeichnis zu haben.
+
+Du hast überwiegend optimization mit z geschrieben, habe daher mal alle Instanzen von optimisation mit s ersetzt.
+
+Diverse Rechtschreibfehler korrigiert
+
+Noch ein paar Fragen:
+* Wonach hast du die einzelnen Links sortiert?
+* Hast du eine Struktur nach dem Kategorien sortiert sind? Bzw. warum ist es so sortiert? Derzeit ist es ja:
+	Generation
+	Storage
+	Distribution
+	Consumption
+	System Assessment
+	Datasets available
+	Environmetal Impact
+	Ecosystem
+	Natural Resources
+	Circular Economy
+	Further Reading
+
+Du musst meine Linkvorschläge mal prüfen ob die dir mit reinpassen.
+Ich habe noch ein paar Links die ich wiederfinden muss. Soweit aber erstmal mein Beitrag.
+-->
 
 
 ## Electricity Generation
+
 ### Photovoltaic
 - [pvlib-python](https://github.com/pvlib/pvlib-python) - A set of documented functions for simulating the performance of photovoltaic energy systems
 - [pvfactors](https://github.com/SunPower/pvfactors) - Open-source view-factor model for diffuse shading and bifacial PV modeling
@@ -32,7 +62,7 @@
 - [solax](https://github.com/squishykid/solax) - Read energy usage data from the real-time API on Solax solar inverters.
 - [bifacialvf](https://github.com/NREL/bifacialvf) - Bifacial PV View Factor model for system performance calculation
 - [solar](https://github.com/oscarperpinan/solar) - allows for reproducible research both for photovoltaics systems performance and solar radiation.
-- [SolarTherm](https://github.com/SolarTherm/SolarTherm) - Solar thermal power/fuel station performance simulation and optimisation using Modelica
+- [SolarTherm](https://github.com/SolarTherm/SolarTherm) - Solar thermal power/fuel station performance simulation and optimization using Modelica
 - [LibreSolar charge-controller-firmware](https://github.com/LibreSolar/charge-controller-firmware) - Firmware for Libre Solar MPPT/PWM charge controllers
 
 
@@ -82,10 +112,35 @@
 - [sashahafner/biogas](https://github.com/sashahafner/biogas) - Tools for biogas research in R: process biogas data and predict biogas production
 - [biosteam](https://github.com/BioSTEAMDevelopmentGroup/biosteam) - The Biorefinery Simulation and Techno-Economic Analysis Modules
 
+<!---
+Neue Kategorie unten
+
+* Muscle Power
+* Evtl. Thermoelektrische Systeme
+-->
+
+### Muscle Power
+
+- [Human Power Plant](https://www.humanpowerplant.be/human_power_plant/prototype-human-power-plant.html) - The Human Power Plant is a working prototype of a muscular power generator, manned by a group of people.
+
 
 ## Energy Storage
 
-### Batterie
+<!---
+Hier der Maschieinwurf:
+Es gibt noch viel mehr Möglichkeiten der Energiespeicherung.
+
+Wonach noch gesucht werden sollte:
+
+* Compressed air energy storage (CAES)
+* Wärme-/Kältespeicher (gerade Wärmeenergie ist ein wichtiges Thema)
+* Evtl. Flywheel engergy storage
+
+Siehe unten "Other"
+
+-->
+
+### Battery
 - [foxBMS](https://github.com/foxBMS/foxbms) -  is a free, open and flexible development environment to design battery management systems. It is the first modular open source BMS development platform.
 - [impedance.py](https://github.com/ECSHackWeek/impedance.py) - A Python package for working with electrochemical impedance data
 - [PyBaMM](https://github.com/pybamm-team/PyBaMM) - Fast and flexible physics-based battery models in Python
@@ -113,10 +168,16 @@
 - [OpenHPL](https://github.com/simulatino/OpenHPL) - is an open-source hydropower library that consists of hydropower unit models and is modelled using Modelica.
 - [GasModels.jl](https://github.com/lanl-ansi/GasModels.jl) - A Julia/JuMP Package for Gas Network Optimization
 
+### Other
+
+- [Compressed air powered motorbike engines](https://onlinelibrary.wiley.com/doi/full/10.1002/eng2.12034) - Investigation and implementation of compressed air powered motorbike engines
+- [Ditch the batteries CAES](https://www.lowtechmagazine.com/compressed-air/) - Off-Grid Compressed Air Energy Storage
+
+
 ## Energy Distribution and Grids
 - [simbench](https://github.com/e2nIEE/simbench) - The objective of the research project SimBench is the development of a benchmark dataset to support research in grid planning and operation
 - [Egret](https://github.com/grid-parity-exchange/Egret) - is a Python-based package for electrical grid optimization based on the Pyomo optimization modeling language
-- [pypsa-eur](https://github.com/PyPSA/pypsa-eur) - PyPSA-Eur: An Open Optimisation Model of the European Transmission System
+- [pypsa-eur](https://github.com/PyPSA/pypsa-eur) - PyPSA-Eur: An Open Optimization Model of the European Transmission System
 - [etengine](https://github.com/quintel/etengine) - Calculation engine for the Energy Transition Model
 - [Open Smart Grid Platform](https://github.com/OSGP/open-smart-grid-platform) - is an open, generic, scalable and independent 'Internet of Things' platform, which enables various connected smart objects in the public space to be easily controlled and monitored 
 - [PowerModels.jl](https://github.com/lanl-ansi/PowerModels.jl) - is designed to enable computational evaluation of emerging power network formulations and algorithms in a common platform
@@ -152,6 +213,10 @@
 
 
 ### Mobility and Transportation
+
+<!---
+Kommt mir auch sehr lang vor.
+-->
 
 - [stplanr](https://github.com/ropensci/stplanr) - is a package for sustainable transport planning with R.
 - [The Open Charge Point Protocol](https://github.com/NewMotion/ocpp) - is a network protocol for communication between electric vehicle chargers and a central backoffice system
@@ -202,61 +267,80 @@
 - [Industry-energy-data-book](https://github.com/NREL/Industry-energy-data-book) - The 2018 Industry Energy Data Book summarizes the status of, and identifies the key trends in energy use and its underlying economic drivers across the four industrial subsectors: agriculture, construction, manufacturing, and mining
 - [CalTRACK](https://github.com/energy-market-methods/caltrack) - methods are developed in an open and transparent stakeholder process that uses empirical testing to define replicable methods for calculating normalized metered energy consumption using either monthly or interval data from an existing conditions baseline.
 
-## System Modeling, Optimisation and Analysis
 
-- [Open Energy Platform](https://github.com/OpenEnergyPlatform/oeplatform) - The Open Energy Family aims to ensure quality, transparency and reproducibility in energy system research. It is a collection of various tools and information and that help working with energy related data
-- [PyPSA](https://github.com/PyPSA/PyPSA) - is a free software toolbox for simulating and optimising modern power systems that include features such as conventional generators with unit commitment, variable wind and solar generation, storage units, coupling to other energy sectors, and mixed alternating and direct current networks 
+## Energy System Assessment
+
+<!---
+Vorschlag für Kategorieüberschrift
+
+Reihenfolge geändert, da (System)Analyse for der Optmierung erfolgt.
+
+Ich würde sagen das ES Monitoring and Control dann auch in dieses Kapitel kann.
+-->
+
+### System Modeling
+
 - [GCAM](https://github.com/JGCRI/gcam-core) - is a dynamic-recursive model with technology-rich representations of the economy, energy sector, land use and water linked to a climate model that can be used to explore climate change mitigation policies including carbon taxes, carbon trading, regulations and accelerated deployment of energy technology.
-- [pyGRETA](https://github.com/tum-ens/pyGRETA) - python *G*enerator of *RE*newable *T*ime series and m*A*ps: a tool that generates high-resolution potential maps and time series for user-defined regions within the globe.
-- [reV](https://github.com/NREL/reV) - enables the efficient and scalable computation of renewable energy generation, levelized cost of energy, application of geospatial exclusion layers, and generation of renewable energy supply curves
 - [System Advisor Model](https://github.com/NREL/SAM) - is a simulation program for electricity generation projects. It has models for different kinds of renewable energy systems and financial models for residential, commercial, and utility-scale projects  
-- [pandapower](http://www.pandapower.org/) - An easy to use open source tool for power system modeling, analysis and optimization with a high degree of automation.
 - [PowerGenome](https://github.com/gschivley/PowerGenome) - A tool to quickly and easily create inputs for power systems models
 - [load_forecasting](https://github.com/pyaf/load_forecasting) - Load forcasting on Delhi area electric power load using ARIMA, RNN, LSTM and GRU models
 - [REopt_Lite_API](https://github.com/NREL/REopt_Lite_API) - REopt Lite offers a subset of features from NREL's more comprehensive REopt model. Both models provide concurrent, multiple technology integration and optimization capabilities to help organizations meet their cost savings and energy performance goals 
-- [openCEM](https://github.com/openCEMorg/openCEM) - Capacity Expansion Model and Optimiser for the Australian National Energy Market
-- [urbs](https://github.com/tum-ens/urbs) - A linear optimisation model for distributed energy systems 
-- [energy-py](https://github.com/ADGEfficiency/energy-py) -  Reinforcement learning for energy systems 
+- [pandapower](http://www.pandapower.org/) - An easy to use open source tool for power system modeling, analysis and optimization with a high degree of automation.
+- [urbs](https://github.com/tum-ens/urbs) - A linear optimization model for distributed energy systems 
 - [Dispa-SET](https://github.com/energy-modelling-toolkit/Dispa-SET) - allows to model a power system at any level of detail e.g. micro-grid, region, country, continent 
 - [calliope](https://github.com/calliope-project/calliope) - Calliope is a framework to develop energy system models, with a focus on flexibility, high spatial and temporal resolution, the ability to execute many runs based on the same base model, and a clear separation of framework  and model 
 - [OSeMOSYS](https://github.com/OSeMOSYS/OSeMOSYS) - is an open source modelling system for long-run integrated assessment and energy planning. It has been employed to develop energy systems models from the scale of continents (African Power Pools, South America, EU28+2) down to the scale of countries, regions and village 
 - [REVUB](https://github.com/VUB-HYDR/REVUB) - The main objective of REVUB is to model how flexible operation of hydropower plants can help renewable electricity mixes with variable solar and wind power to provide reliable electricity supply and load-following services
-- [glaes](https://github.com/FZJ-IEK3-VSA/glaes) - Geospatial Land Availability for Energy Systems 
-- [RESKit](https://github.com/FZJ-IEK3-VSA/RESKit) - A toolkit to help generate renewable energy generation time-series for energy systems analysis 
 - [FINE](https://github.com/FZJ-IEK3-VSA/FINE) - The FINE python package provides a framework for modeling, optimizing and assessing energy systems 
-- [atlite](https://github.com/PyPSA/atlite) - Light-weight version of Aarhus RE Atlas for converting weather data to power systems data
-- [onsset](https://github.com/OnSSET/onsset) - is a GIS based optimization tool that has been developed to support electrification planning and decision making for the achievement of energy access goals in currently unserved locations. 
 - [compas](https://github.com/com-pas/compas-architecture) - The CoMPAS project was formed to develop open source software components related to IEC 61850 model implementation (profile management) and configuration of a power industry Protection Automation and Control System (PACS).
-- [PowSyBl](https://github.com/powsybl/powsybl-core) - is an open source framework written in Java, that makes it easy to write complex software for power systems’ simulations and analysis
- - [powsybl-open-loadflow](https://github.com/powsybl/powsybl-open-loadflow) - PowSyBl Open Load Flow is an open source implementation of the load flow API that can be found in PowSyBl Core. It supports AC Newtow-Raphson and linear DC calculation methods
-- [Hierarchical Engine for Large-scale Infrastructure Co-Simulation](https://github.com/GMLC-TDC/HELICS) - Today the core uses are in the energy domain, where there is extensive and growing support for a wide-range of electric power system, natural gas, communications and control-schemes, transportation, buildings, and related domain tools.
 - [PowerSimulations.jl](https://github.com/NREL-SIIP/PowerSimulations.jl) - is a Julia package for power system modeling and simulation of Power Systems operations
 - [PowerSystems.jl](https://github.com/NREL-SIIP/PowerSystems.jl) - provides a rigorous data model using Julia structures to enable power systems analysis and modeling
 - [Balmorel](https://github.com/balmorelcommunity/Balmorel) - is a partial equilibrium model for analysing the electricity and combined heat and power sectors in an international perspective
 - [DistAIX](https://git.rwth-aachen.de/acs/public/simulation/DistAIXFramework/distaix) - is a simulator for cyber-physical power systems that makes use of high performance computing techniques to scale up the simulation.
   An agent-based modeling and simulation approach is applied to model the behavior of the electrical system as well as distributed control and decision-making processes
+- [ontology](https://github.com/OpenEnergyPlatform/ontology) - The Open Energy Ontology  is a domain ontology of the energy-system modelling context
+- [nempy](https://github.com/UNSW-CEEM/nempy) - This project aims to enhance the Australia electricity industries modelling and analytical capabilities
+- [NEMO](https://github.com/bje-/NEMO) - The National Electricity Market Optimiser (NEMO) is a chronological dispatch model for testing and optimising different portfolios of conventional and renewable electricity generation technologies
+- [GlobalEnergyGIS](https://github.com/niclasmattsson/GlobalEnergyGIS) - Generates input data for energy models on renewable energy in arbitrary world regions using public datasets.
+- [IDEAS](https://github.com/open-ideas/IDEAS) - Modelica library allowing simultaneous transient simulation of thermal and electrical systems at both building and feeder level.
+- [Antares Simulator](https://github.com/AntaresSimulatorTeam/Antares_Simulator) - is an Open Source power system simulator to quantify the adequacy or the economic performance of interconnected energy systems, at short or remote time horizons.
+- [Hierarchical Engine for Large-scale Infrastructure Co-Simulation](https://github.com/GMLC-TDC/HELICS) - Today the core uses are in the energy domain, where there is extensive and growing support for a wide-range of electric power system, natural gas, communications and control-schemes, transportation, buildings, and related domain tools.
+
+### System Analysis
+
+- [Open Energy Platform](https://github.com/OpenEnergyPlatform/oeplatform) - The Open Energy Family aims to ensure quality, transparency and reproducibility in energy system research. It is a collection of various tools and information and that help working with energy related data
+- [PyPSA](https://github.com/PyPSA/PyPSA) - is a free software toolbox for simulating and optimising modern power systems that include features such as conventional generators with unit commitment, variable wind and solar generation, storage units, coupling to other energy sectors, and mixed alternating and direct current networks 
+- [pyGRETA](https://github.com/tum-ens/pyGRETA) - python *G*enerator of *RE*newable *T*ime series and m*A*ps: a tool that generates high-resolution potential maps and time series for user-defined regions within the globe.
+- [RESKit](https://github.com/FZJ-IEK3-VSA/RESKit) - A toolkit to help generate renewable energy generation time-series for energy systems analysis 
+- [PowSyBl](https://github.com/powsybl/powsybl-core) - is an open source framework written in Java, that makes it easy to write complex software for power systems’ simulations and analysis
+- [powsybl-open-loadflow](https://github.com/powsybl/powsybl-open-loadflow) - PowSyBl Open Load Flow is an open source implementation of the load flow API that can be found in PowSyBl Core. It supports AC Newtow-Raphson and linear DC calculation methods
 - [matpower](https://github.com/MATPOWER/matpower) - is a package of M-files for solving power flow, continuation power flow and optimal power flow problems using MATLAB or Octave
 - [energyRt](https://github.com/energyRt/energyRt) - Making Energy Systems Modeling as simple as a linear regression in R
-- [whobs-server](https://github.com/PyPSA/whobs-server) - This is the code for the online optimisation of zero-direct-emission electricity systems with wind, solar and storage (using batteries and electrolysed hydrogen gas) to provide a baseload electricity demand, using the cost and other assumptions of your choice
-- [MVS ](https://github.com/rl-institut/mvs_eland) - The multi-vector simulator allows the evaluation of local sector-coupled energy systems that include the energy carriers electricity, heat and/or gas.
-- [ontology](https://github.com/OpenEnergyPlatform/ontology) - The Open Energy Ontology  is a domain ontology of the energy-system modelling context
- - [rl-testbed-for-energyplus](https://github.com/IBM/rl-testbed-for-energyplus) - Reinforcement Learning Testbed for Power Consumption Optimization using EnergyPlus
-- [CityLearn](https://github.com/intelligent-environments-lab/CityLearn) - Official reinforcement learning environment for demand response and load shaping
- - [nempy](https://github.com/UNSW-CEEM/nempy) - This project aims to enhance the Australia electricity industries modelling and analytical capabilities
-- [NEMO](https://github.com/bje-/NEMO) - The National Electricity Market Optimiser (NEMO) is a chronological dispatch model for testing and optimising different portfolios of conventional and renewable electricity generation technologies
+- [MVS](https://github.com/rl-institut/mvs_eland) - The multi-vector simulator allows the evaluation of local sector-coupled energy systems that include the energy carriers electricity, heat and/or gas.
+- [atlite](https://github.com/PyPSA/atlite) - Light-weight version of Aarhus RE Atlas for converting weather data to power systems data
+
+### System Optimization
+
+- [reV](https://github.com/NREL/reV) - enables the efficient and scalable computation of renewable energy generation, levelized cost of energy, application of geospatial exclusion layers, and generation of renewable energy supply curves
+- [openCEM](https://github.com/openCEMorg/openCEM) - Capacity Expansion Model and Optimiser for the Australian National Energy Market
+- [energy-py](https://github.com/ADGEfficiency/energy-py) -  Reinforcement learning for energy systems 
+- [glaes](https://github.com/FZJ-IEK3-VSA/glaes) - Geospatial Land Availability for Energy Systems 
+- [onsset](https://github.com/OnSSET/onsset) - is a GIS based optimization tool that has been developed to support electrification planning and decision making for the achievement of energy access goals in currently unserved locations. 
+- [whobs-server](https://github.com/PyPSA/whobs-server) - This is the code for the online optimization of zero-direct-emission electricity systems with wind, solar and storage (using batteries and electrolysed hydrogen gas) to provide a baseload electricity demand, using the cost and other assumptions of your choice
 - [WHAT-IF](https://github.com/RaphaelPB/WHAT-IF) - Water, Hydropower, Agriculture Tool for Investment and Financing decision support tool
-- [IDEAS](https://github.com/open-ideas/IDEAS) - Modelica library allowing simultaneous transient simulation of thermal and electrical systems at both building and feeder level.
-- [GlobalEnergyGIS](https://github.com/niclasmattsson/GlobalEnergyGIS) - Generates input data for energy models on renewable energy in arbitrary world regions using public datasets.
-- [Antares Simulator](https://github.com/AntaresSimulatorTeam/Antares_Simulator) - is an Open Source power system simulator to quantify the adequacy or the economic performance of interconnected energy systems, at short or remote time horizons.
+- [CityLearn](https://github.com/intelligent-environments-lab/CityLearn) - Official reinforcement learning environment for demand response and load shaping
+- [rl-testbed-for-energyplus](https://github.com/IBM/rl-testbed-for-energyplus) - Reinforcement Learning Testbed for Power Consumption Optimization using EnergyPlus
 
-## Energy System Monitoring and Control
+### Energy System Monitoring and Control
 
-- [openems: OpenEMS - Open Source Energy Management System](https://github.com/OpenEMS/openems) 
-- [eemeter: An open source python package for implementing and developing standard methods for calculating normalized metered energy consumption and avoided energy use.](https://github.com/openeemeter/eemeter)
+- [OpenEMS](https://github.com/OpenEMS/openems) - Open Source Energy Management System
+- [eemeter](https://github.com/openeemeter/eemeter) - An open source python package for implementing and developing standard methods for calculating normalized metered energy consumption and avoided energy use.
 - [OperatorFabric](https://github.com/opfab/operatorfabric-core) - OperatorFabric is a modular, extensible, industrial-strength and field-tested platform for use in electricity, water, and other utility operations.
 - [energy-sparks](https://github.com/Energy-Sparks/energy-sparks) - an open source application that is designed to help schools improve their energy efficiency.
 
-## Datasets on Electricity Consumtion and Generation 
+
+
+## Datasets on Electricity Consumption and Generation 
 
 - [pudl](https://github.com/catalyst-cooperative/pudl) - makes US energy data easier to access and use 
 - [Global Power Plant Database](https://github.com/wri/global-power-plant-database) - A comprehensive, global, open source database of power plants 
@@ -309,7 +393,7 @@
 - [TreeLS](https://github.com/tiagodc/TreeLS) - High performance R functions for forest data processing based on Terrestrial Laser Scanning (but not only) point clouds.
 - [TreeQSM](https://github.com/InverseTampere/TreeQSM) - Quantitative Structure Models of Single Trees from Laser Scanner Data
 - [DeepLidar](https://github.com/weecology/DeepLidar) - Geographic Generalization in Airborne RGB Deep Learning Tree Detection
-- [wildfire forecasting](https://github.com/esowc/wildfire-forecasting) - The project intends to reproduce the Fire Forecasting capabilities of GEFF using Deep Learning and develop further improvements in accuracy, geography and time scale through inclusion of additional variables or optimisation of model architecture & hyperparameters
+- [wildfire forecasting](https://github.com/esowc/wildfire-forecasting) - The project intends to reproduce the Fire Forecasting capabilities of GEFF using Deep Learning and develop further improvements in accuracy, geography and time scale through inclusion of additional variables or optimization of model architecture & hyperparameters
 - [caliver](https://github.com/ecmwf/caliver) - CALIbration and VERification of gridded fire danger models
 - [Global Forest Watch](https://github.com/Vizzuality/gfw) - Global Forest Watch: An online, global, near-real time forest monitoring tool
 - [taxize](https://github.com/ropensci/taxize) - taxize allows users to search over many taxonomic data sources for species names (scientific and common) and download up and downstream taxonomic hierarchical information 
